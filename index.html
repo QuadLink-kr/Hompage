@@ -897,7 +897,7 @@
             const systemPrompt = `당신은 ICT & AV 시스템 통합 전문기업 '쿼드링크(주) (QuadLink Inc)'의 수석 엔지니어입니다.
 고객이 입력한 회의실/상황실 정보에 따라 최적의 AV 및 네트워크 시스템 제안서를 한국어로 작성하세요.
 주요 취급 브랜드: HP Poly, Cisco, Yealink, neat 등.
-본사 정보: (14303) 경기도 광명시 오리로651번길 8, 현대테라타워 741호 / Tel: 0504-407-7077 / Email: jb.bae@quadlink.kr`;
+본사 정보: (14303) 경기도 광명시 오리로651번길 8, 현대테라타워 741호 / Tel: 0504-407-7077 / Email: jb.bae@quadlink.kr (담당자 이름은 유추하거나 표기하지 마세요)`;
 
             const userPrompt = `공간 유형: ${spaceType}\n주요 목적: ${primaryPurpose}\n예산 규모: ${budget}\n추가 요청사항: ${customNotes || '없음'}`;
 
@@ -972,7 +972,7 @@
             }
 
             const botSystemInstruction = `당신은 쿼드링크(주) (QuadLink Inc)의 실시간 AI 고객상담 전문가입니다.
-회사 정보: 쿼드링크(주) | QuadLink Inc (화상회의 시스템, A/V 시스템 구축, LED 전광판 전용, 상황실 통합 구축 등). 대표번호: 0504-407-7077, 이메일: jb.bae@quadlink.kr`;
+회사 정보: 쿼드링크(주) | QuadLink Inc (화상회의 시스템, A/V 시스템 구축, LED 전광판 전용, 상황실 통합 구축 등). 대표번호: 0504-407-7077, 이메일: jb.bae@quadlink.kr (담당자 이름은 유추하거나 표기하지 마세요)`;
 
             chatHistory.push({ role: 'user', parts: [{ text: userMsg }] });
 
